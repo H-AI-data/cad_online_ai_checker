@@ -1,0 +1,24 @@
+name: aichecker_new
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - freecad=1.1
+  - cadquery
+  - trimesh
+  - numpy
+  - numba
+  - scipy
+  - pymupdf
+  - ezdxf
+  - matplotlib
+  - pillow
+  - requests
+  - shapely
+  - reportlab
+  - networkx
+  - rtree
+  - pip
+  - pip:
+      - pytest
+      - fast-simplification

@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "catalog": "geometry/catalog.json",
+  "meshes": "geometry/meshes.json.gz",
+  "source_sha256": "3cff5977a65a0e57be6044e8b07d5fce46f9d34748c1367c00c5bfa5afd7c0d3",
+  "iso_direction": [
+    1,
+    -1,
+    0.65
+  ],
+  "groups": [
+    {
+      "id": "G1",
+      "name": "机架与安装板",
+      "description": "立式侧板、上下安装板和底座",
+      "parts": [
+        "solid_0005",
+        "solid_0008",
+        "solid_0013",
+        "solid_0025",
+        "solid_0026",
+        "solid_0027",
+        "solid_0029",
+        "solid_0031",
+        "solid_0032",
+        "solid_0034",
+        "solid_0038",
+        "solid_0045",
+        "solid_0046",
+        "solid_0047",
+        "solid_0065",
+        "solid_0073",
+        "solid_0097"
+      ],
+      "color": [
+        0.55,
+        0.66,
+        0.75
+      ],
+      "explode_axis": [
+        0,
+        1,
+        0
+      ],
+      "explode_step_mm": 35,
+      "camera": [
+        1,
+        -1,
+        0.7
+      ],
+      "approach": [
+        0,
+        0,
+        0
+      ],
+      "install_note": "以侧板、上下安装板和底座形成全机空间基准。"
+    },
+    {
+      "id": "G2",
+      "name": "导向与长杆",
+      "description": "多根竖向导向杆、套筒和定位附件",
+      "parts": [
+        "solid_0003",
+        "solid_0028",
+        "solid_0030",
+        "solid_0033",
+        "solid_0036",
+        "solid_0037",
+        "solid_0039",
+        "solid_0040",
+        "solid_0041",
+        "solid_0042",
+        "solid_0043",
+        "solid_0050",
+        "solid_0051",
+        "solid_0052",
+        "solid_0066",
+        "solid_0082",
+        "solid_0084",
+        "solid_0085",
+        "solid_0086",
+        "solid_0087",
+        "solid_0088",
+        "solid_0089",
+        "solid_0090",
+        "solid_0091",
+        "solid_0092",
+        "solid_0094",
+        "solid_0095",
+        "solid_0096"
+      ],
+      "color": [
+        0.42,
+        0.68,
+        0.7
+      ],
+      "explode_axis": [
+        0,
+        0,
+        1
+      ],
+      "explode_step_mm": 20,
+      "camera": [
+        1,
+        -1,
+        0.7
+      ],
+      "approach": [
+        190,
+        0,
+        0
+      ],
+      "install_note": "导向杆与机架上下安装板的孔位及侧导轨位置对应。"
+    },
+    {
+      "id": "G3",
+      "name": "中心双轴组件",
+      "description": "两根相邻竖轴、端部件和侧向旋钮",
+      "parts": [
+        "solid_0001",
+        "solid_0002",
+        "solid_0006",
+        "solid_0007",
+        "solid_0009",
+        "solid_0010",
+        "solid_0011",
+        "solid_0012",
+        "solid_0014",
+        "solid_0015",
+        "solid_0024",
+        "solid_0035",
+        "solid_0074",
+        "solid_0093"
+      ],
+      "color": [
+        0.85,
+        0.64,
+        0.4
+      ],
+      "explode_axis": [
+        0,
+        0,
+        1
+      ],
+      "explode_step_mm": 38,
+      "camera": [
+        1,
+        -1,
+        0.7
+      ],
+      "approach": [
+        0,
+        -170,
+        0
+      ],
+      "install_note": "两根竖轴保持平行，端部与机架上下安装板孔位对应。"
+    },
+    {
+      "id": "G4",
+      "name": "侧轴与底部支承",
+      "description": "侧方竖轴、底部支承和附属板件",
+      "parts": [
+        "solid_0053",
+        "solid_0054",
+        "solid_0055",
+        "solid_0056",
+        "solid_0057",
+        "solid_0058",
+        "solid_0059",
+        "solid_0060",
+        "solid_0061",
+        "solid_0062",
+        "solid_0063",
+        "solid_0064",
+        "solid_0048",
+        "solid_0049"
+      ],
+      "color": [
+        0.76,
+        0.54,
+        0.69
+      ],
+      "explode_axis": [
+        0,
+        0,
+        1
+      ],
+      "explode_step_mm": 28,
+      "camera": [
+        1,
+        -1,
+        0.7
+      ],
+      "approach": [
+        -200,
+        0,
+        0
+      ],
+      "install_note": "侧轴支承位于机架外侧下部，竖轴与底部托架对应。"
+    },
+    {
+      "id": "G5",
+      "name": "下部电机组件",
+      "description": "电机本体、端盖、法兰和带轮",
+      "parts": [
+        "solid_0004",
+        "solid_0016",
+        "solid_0017",
+        "solid_0018",
+        "solid_0019",
+        "solid_0020",
+        "solid_0021",
+        "solid_0022",
+        "solid_0023"
+      ],
+      "color": [
+        0.79,
+        0.73,
+        0.43
+      ],
+      "explode_axis": [
+        0,
+        0,
+        1
+      ],
+      "explode_step_mm": 25,
+      "camera": [
+        1,
+        -1,
+        0.7
+      ],
+      "approach": [
+        0,
+        0,
+        -160
+      ],
+      "install_note": "电机法兰位于机架下部；带轮朝向下方。"
+    },
+    {
+      "id": "G6",
+      "name": "上下圆盘组件",
+      "description": "上下圆盘、中心连杆及安装臂",
+      "parts": [
+        "solid_0044",
+        "solid_0067",
+        "solid_0068",
+        "solid_0069",
+        "solid_0070",
+        "solid_0071",
+        "solid_0072",
+        "solid_0075",
+        "solid_0076",
+        "solid_0077",
+        "solid_0078",
+        "solid_0079",
+        "solid_0080",
+        "solid_0081",
+        "solid_0083"
+      ],
+      "color": [
+        0.49,
+        0.63,
+        0.82
+      ],
+      "explode_axis": [
+        0,
+        0,
+        1
+      ],
+      "explode_step_mm": 28,
+      "camera": [
+        1,
+        -1,
+        0.7
+      ],
+      "approach": [
+        0,
+        0,
+        210
+      ],
+      "install_note": "上下圆盘与伸出的安装臂对应，中心长杆保持同轴。"
+    }
+  ],
+  "stages": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6"
+  ],
+  "case_title": "cad_03_g009",
+  "part_spec": "part-spec.json"
+}

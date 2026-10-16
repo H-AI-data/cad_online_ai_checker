@@ -1,0 +1,3 @@
+interface:
+  display_name: "STEP 工程爆炸图"
+  short_description: "从 STEP 装配模型生成可编辑、带编号与引线的工程爆炸图"

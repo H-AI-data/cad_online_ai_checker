@@ -1,0 +1,1928 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-13T21:28:44+08:00",
+  "algorithm": "SHA-256",
+  "scope": "当前两个 dataset 目录中，判分入口读取的 tests/reference/reference.step；每题一份",
+  "duplicate_definition": "按原始文件内容计算 SHA-256；文件名、后缀和路径不参与哈希。用于文件内容查重，不用于几何等价判断。",
+  "source_roots": [
+    {
+      "dataset": "Ali_cad_250_Out",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250"
+    },
+    {
+      "dataset": "cad_28",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset"
+    }
+  ],
+  "status": "complete",
+  "summary": {
+    "task_counts": {
+      "Ali_cad_250_Out": 242,
+      "cad_28": 25
+    },
+    "file_counts": {
+      "Ali_cad_250_Out": 242,
+      "cad_28": 25
+    },
+    "files_scanned": 267,
+    "unique_sha256_count": 266,
+    "duplicate_group_count": 1,
+    "files_in_duplicate_groups": 2,
+    "redundant_file_count": 1,
+    "error_count": 0
+  },
+  "duplicate_groups": [
+    {
+      "sha256": "2b182a0d6390cc6e75f7fc0bffd0ff66dc6769ac1dc4b60f22aac2aa29340b36",
+      "count": 2,
+      "files": [
+        {
+          "dataset": "Ali_cad_250_Out",
+          "task": "36",
+          "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/36/tests/reference/reference.step",
+          "bytes": 3446536,
+          "sha256": "2b182a0d6390cc6e75f7fc0bffd0ff66dc6769ac1dc4b60f22aac2aa29340b36"
+        },
+        {
+          "dataset": "Ali_cad_250_Out",
+          "task": "63",
+          "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/63/tests/reference/reference.step",
+          "bytes": 3446536,
+          "sha256": "2b182a0d6390cc6e75f7fc0bffd0ff66dc6769ac1dc4b60f22aac2aa29340b36"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "1",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/1/tests/reference/reference.step",
+      "bytes": 703471,
+      "sha256": "07b01bccbc5d7cad70352bc42ee48005ac84460601c451d0a4bd838d9b8fe2b0"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "2",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/2/tests/reference/reference.step",
+      "bytes": 44405149,
+      "sha256": "63c371cb8f556d724556b0aa626f2377f6169b48b9d265a7df977b078883a714"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "3",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/3/tests/reference/reference.step",
+      "bytes": 34303177,
+      "sha256": "5102b16ff773d094fe98c41d5e06cb891d8d33c8a528cd2abb8b7524edb27043"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "4",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/4/tests/reference/reference.step",
+      "bytes": 3025732,
+      "sha256": "8c387058fdc56483ebcf980f20370043d3eabdc49c62a76644535bc8fe3ef922"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "5",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/5/tests/reference/reference.step",
+      "bytes": 6670527,
+      "sha256": "cec3f9af49fc6c10daf42a17ea6ac1711cf5e851492d0bd38cd5955a27de815f"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "6",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/6/tests/reference/reference.step",
+      "bytes": 12052738,
+      "sha256": "bffe451b295f795ff8668b3b607faf1cb2b9408978703f3910759aa312216c32"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "7",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/7/tests/reference/reference.step",
+      "bytes": 15882531,
+      "sha256": "83b3312f285ac0261cb8788c9b07126d59bd2571031aee36b966af4514da487b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "8",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/8/tests/reference/reference.step",
+      "bytes": 754826,
+      "sha256": "3d2d5b23e222a232eba692cc16cd8715ba019c4eae6d70ddc01b0cc1bbb29d4a"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "9",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/9/tests/reference/reference.step",
+      "bytes": 7283155,
+      "sha256": "010c7d3a4a9af8f0f17577712fcc17d13b53f1a14546060741584b7548576ee2"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "10",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/10/tests/reference/reference.step",
+      "bytes": 5779404,
+      "sha256": "c1112ca90f389c5dd234070b72e87289ba9dc5d26a338b060c40fbfbc7b97d3e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "11",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/11/tests/reference/reference.step",
+      "bytes": 1155563,
+      "sha256": "5f1ff233d2cc81ed8a318ca9490e389ad832b2650412b306741eecc911de4e3b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "12",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/12/tests/reference/reference.step",
+      "bytes": 5890586,
+      "sha256": "8e4774262c30697bb29a4e8d1ed2ac3d230e7ffa542144176e00494c5bbb0b07"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "13",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/13/tests/reference/reference.step",
+      "bytes": 1580272,
+      "sha256": "59c22dfb755ae17e5b943e93afa1d39574f74da23254e43a170b2bdc2291c699"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "14",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/14/tests/reference/reference.step",
+      "bytes": 9266685,
+      "sha256": "75d7fa9e2dce923ae77a6045485ad837a78e676e86a40d5a4118952fcf8589e5"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "15",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/15/tests/reference/reference.step",
+      "bytes": 17531439,
+      "sha256": "9286a378e4c55f05f1415eea74381a2c3a69117787a7d37ca724da4d8f2f150d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "16",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/16/tests/reference/reference.step",
+      "bytes": 14746638,
+      "sha256": "910d22fa69c8efbe26560527509e724f870ce14847001d5bd2a3c9edeb012c8e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "17",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/17/tests/reference/reference.step",
+      "bytes": 1150446,
+      "sha256": "2bcabc25d5ea2c678e252082cfa5cb53c0db58ed5da30ecccc2329acbb11dc77"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "18",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/18/tests/reference/reference.step",
+      "bytes": 902042,
+      "sha256": "07a7626a6fbd4bc60a29d12a6945c56b5494fe38f0daebce24bbd92be3c7b54f"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "19",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/19/tests/reference/reference.step",
+      "bytes": 4165607,
+      "sha256": "1bc02628ec861ccb55ade0e8503f0cf0d11aef5591903bc8fe03c54e0e804b06"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "20",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/20/tests/reference/reference.step",
+      "bytes": 4417967,
+      "sha256": "c02a940f277970cfd7c0a59e5ab495c926045be6ff41b3656d0f6a20d11504cf"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "21",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/21/tests/reference/reference.step",
+      "bytes": 12406657,
+      "sha256": "99cde956651a9bafca4f9ab8ed8999070006450e87fffd9be515b0694fe7de51"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "22",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/22/tests/reference/reference.step",
+      "bytes": 1931264,
+      "sha256": "1affdc3472d6a3cda47b64b1af852028ff5d935e8fa257b0ccb8321f1341f3d0"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "23",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/23/tests/reference/reference.step",
+      "bytes": 4869515,
+      "sha256": "7256a473c503c1aab7cbe55f6aff230f2ec9a87befde631209da0f4568539165"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "24",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/24/tests/reference/reference.step",
+      "bytes": 17571836,
+      "sha256": "c678ff8200cdee9cc2467c1400158d23504954ccf4c34a3bd971e4d9f4e445c2"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "25",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/25/tests/reference/reference.step",
+      "bytes": 26735618,
+      "sha256": "453c2b8646af0894a970d76cbf0bb46c0d5d366ebf0e98f19c12ff2949eadb15"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "26",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/26/tests/reference/reference.step",
+      "bytes": 17077175,
+      "sha256": "4da55c0a94b5385ecbf64a3fb63666607be0394f2805960b014719977cf2fef9"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "27",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/27/tests/reference/reference.step",
+      "bytes": 5186239,
+      "sha256": "c994d42826aca86aa181a66804ef815785f66749b709839f42d5813d26a9f78c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "30",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/30/tests/reference/reference.step",
+      "bytes": 827919,
+      "sha256": "334463732b04eaedb8c12a65e273d1a58c13aa471d546869fa89b332909110e0"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "31",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/31/tests/reference/reference.step",
+      "bytes": 935867,
+      "sha256": "46c69e4de588a890e6494517b2361ece96d1758c00a0521fcee8e54128c0f56c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "32",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/32/tests/reference/reference.step",
+      "bytes": 4930498,
+      "sha256": "56acd9c98669659b4477861dd8ceec20e3f7243a0687ad0f68b498bab7bd4c9a"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "33",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/33/tests/reference/reference.step",
+      "bytes": 965818,
+      "sha256": "d25e841964b1efecdd54e3cf50cd6d35b084fd71c51362e62c547ac075c97953"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "34",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/34/tests/reference/reference.step",
+      "bytes": 2958293,
+      "sha256": "05d48c90ab34dc1e73f927e7ce12b3b8235eddc6d8e182dd0131658380f54171"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "35",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/35/tests/reference/reference.step",
+      "bytes": 2920673,
+      "sha256": "893fe833317e49e345a2d8c5b7ee8a53288df7f152150224d2510ce15db902e5"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "36",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/36/tests/reference/reference.step",
+      "bytes": 3446536,
+      "sha256": "2b182a0d6390cc6e75f7fc0bffd0ff66dc6769ac1dc4b60f22aac2aa29340b36"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "37",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/37/tests/reference/reference.step",
+      "bytes": 1150977,
+      "sha256": "09ef52b4ae9893126e907119a15581416ef99c55778bb47a08109824cf800eed"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "38",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/38/tests/reference/reference.step",
+      "bytes": 388006,
+      "sha256": "00094ad78c36ae16e2aaae09dec6b0d69e6eb40dc076f502f7050341b4dba992"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "39",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/39/tests/reference/reference.step",
+      "bytes": 5832951,
+      "sha256": "11f586d4e1a18ba4e84e7a92feced1e90c9fb29765a64dd4c96d150752a37bf3"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "41",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/41/tests/reference/reference.step",
+      "bytes": 583946,
+      "sha256": "5797c8f0b7b8a60b61fe7d1c947fedc2aec793d683a7dd272b54217fb2115eba"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "43",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/43/tests/reference/reference.step",
+      "bytes": 1575881,
+      "sha256": "83c798fc4e47573176f8126ae9a2eadf1ebe7a4742ef20a121fd0754a35c4e8e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "44",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/44/tests/reference/reference.step",
+      "bytes": 1182668,
+      "sha256": "17952b697ff22bb0e20bde6e7138eec7601d0a4c0a81b8935c32955e79964ad7"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "45",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/45/tests/reference/reference.step",
+      "bytes": 6778628,
+      "sha256": "0a4ca5bdac9b60d772caf093f300e628099ba4d7da1640f888ecc837a68486e4"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "46",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/46/tests/reference/reference.step",
+      "bytes": 2465046,
+      "sha256": "8b76a28e09a82ce7b1c53cdff6d0769a5e7ba2201b13201fc689f636dfc3c456"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "47",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/47/tests/reference/reference.step",
+      "bytes": 12009899,
+      "sha256": "360dcc3cff24c3d76c5deef152c4226ebe1313979d6a64e60d7d8961d6d40708"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "48",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/48/tests/reference/reference.step",
+      "bytes": 1039398,
+      "sha256": "f4671678e3c6ca7f2c797bc5b0c06d4e200e5f50899abe8fce12ef6b71d3ffb4"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "49",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/49/tests/reference/reference.step",
+      "bytes": 47801287,
+      "sha256": "c6ba3306282a8a8c9f8e4b0525b679a377f8fdb4fa21a068e28f8a43a691da49"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "50",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/50/tests/reference/reference.step",
+      "bytes": 822325,
+      "sha256": "e6510526c49541821eea5d5943e6ade8b8bc889f62cb678127c3e815c22c77c8"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "51",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/51/tests/reference/reference.step",
+      "bytes": 8257448,
+      "sha256": "f05bb280eb0f2770cb2e80b94534b2945ebcdc9111ea46861acbb22787c5344f"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "52",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/52/tests/reference/reference.step",
+      "bytes": 3138662,
+      "sha256": "d075f70c42ad4089d155593351c8f2e4db89e75df2fd2d08cbc1815f4eabc683"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "53",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/53/tests/reference/reference.step",
+      "bytes": 24017258,
+      "sha256": "c017159ebbc89e81a3a13d3f17b2249699ab7c1c4a2b86e80ee87ffd38990f69"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "54",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/54/tests/reference/reference.step",
+      "bytes": 24834152,
+      "sha256": "f5714457b7b3be9e58f64ae8e7e704fe4cf65a9c985c221a91756e740be8e359"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "55",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/55/tests/reference/reference.step",
+      "bytes": 21762147,
+      "sha256": "583c78e017fa91a821b3e18e6e74101d5d94752fa3b42b04e8fe05512d69db66"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "56",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/56/tests/reference/reference.step",
+      "bytes": 3709242,
+      "sha256": "1780c1f94ec89eb27529edf41740e40d58f0ea5f11ec8fbbdf72cab41c17dd69"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "57",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/57/tests/reference/reference.step",
+      "bytes": 20868424,
+      "sha256": "c18a80ca8267a1e46e27c74ab8082f6e24bba79bceaabb93eee0781c269a199a"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "58",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/58/tests/reference/reference.step",
+      "bytes": 918843,
+      "sha256": "26f0f14840397776f37a89543f7b45bf3f5b6c214b0c69b556277b3e07c56370"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "59",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/59/tests/reference/reference.step",
+      "bytes": 1536059,
+      "sha256": "6e25ec75353decb1461d58f8642b9d104356d6248b1866d26d14edcd2d18d27d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "60",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/60/tests/reference/reference.step",
+      "bytes": 8971060,
+      "sha256": "551c1f5f76bc2a99e8e85720ea5de9c19a6d6b5a0c9c80a981c83261f5a89dab"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "63",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/63/tests/reference/reference.step",
+      "bytes": 3446536,
+      "sha256": "2b182a0d6390cc6e75f7fc0bffd0ff66dc6769ac1dc4b60f22aac2aa29340b36"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "64",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/64/tests/reference/reference.step",
+      "bytes": 3023669,
+      "sha256": "8ac3ba1a06822a9dfe89797052eb218a3e1a0bd2ad75d602b4dfd0c4c69dea89"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "65",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/65/tests/reference/reference.step",
+      "bytes": 23785069,
+      "sha256": "ddaf47a990da14540410c04db92ebdde3acddc28778e29b541504360951e478b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "66",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/66/tests/reference/reference.step",
+      "bytes": 37035629,
+      "sha256": "6ee0454b385572389570eb1158aa05a9cc2172ae33f080ee02f50fc4102d0ad3"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "67",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/67/tests/reference/reference.step",
+      "bytes": 153213067,
+      "sha256": "4c7045dd0e4f9c7ddf15563e4f62fba437340a5a6a59d4b6618728852183433b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "68",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/68/tests/reference/reference.step",
+      "bytes": 28676101,
+      "sha256": "489136be263ea1013b585fb8f2307a5a3d3645bbf0ae14cde80a77c47ddb794f"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "69",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/69/tests/reference/reference.step",
+      "bytes": 11909632,
+      "sha256": "fe7ae732b284cea616ee1c9616909c05127e0f792cb5edb490109c3217cea86c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "70",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/70/tests/reference/reference.step",
+      "bytes": 20766302,
+      "sha256": "64f886a32cf54114d84cfe22d3c6487cf92dd8b4c2d7a0e30a73ca8709597c73"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "71",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/71/tests/reference/reference.step",
+      "bytes": 15138060,
+      "sha256": "31506b8132dea650587970b3eb6fad614d4f18cb776e281d30e7a1dfe328932e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "72",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/72/tests/reference/reference.step",
+      "bytes": 27359557,
+      "sha256": "f4686f2ad763934470703c0bafba07c4f13dd67c370ed5370ecbf06eaafb9b9e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "73",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/73/tests/reference/reference.step",
+      "bytes": 28940992,
+      "sha256": "b8bc9fd6a45bbe50386230f838e3cea303a3cfa68e4fd0a0bd28a375bae0d7f6"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "74",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/74/tests/reference/reference.step",
+      "bytes": 2329432,
+      "sha256": "8d9741a3bb2682f00a444a2440789c3f88fffd7c8c444194bafd0d7b759e9ac0"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "75",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/75/tests/reference/reference.step",
+      "bytes": 1165788,
+      "sha256": "a1c99e1b69d8681be639e70fa7793b19b19e8019defe8cb8ea58d30bdd6162c7"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "76",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/76/tests/reference/reference.step",
+      "bytes": 26839933,
+      "sha256": "2705db107bff254523d4e74258564041bde598b92a363d8641f6a2b8324c4ad2"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "77",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/77/tests/reference/reference.step",
+      "bytes": 4338508,
+      "sha256": "b2f75643b61ef4b1c9e0c43c27d57608bfed1a42ec55b855365a3e175afbb73d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "78",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/78/tests/reference/reference.step",
+      "bytes": 29467442,
+      "sha256": "59e9dc6c9254aec161110b7f1983702df0934a6a076eee30b9c8feec28cb2a94"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "79",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/79/tests/reference/reference.step",
+      "bytes": 12369603,
+      "sha256": "982075972c44c57cea864c106ca623af2b3d327c71211c09b61815a8ea11d7b6"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "80",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/80/tests/reference/reference.step",
+      "bytes": 8062816,
+      "sha256": "fcaa6dbb1a5e5bc1ada5cd8377d656ee3b0eb54dd7e852ecfc42b43348275e58"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "81",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/81/tests/reference/reference.step",
+      "bytes": 12981406,
+      "sha256": "0c15ca125fccbfcc0eb2e32853870d96b8dd5e8a0e4356f9b379b360036a1102"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "82",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/82/tests/reference/reference.step",
+      "bytes": 26107337,
+      "sha256": "2f4e0d486e8551b8f1e6fc1f82ff1797a240819e818d80ebea9876700a0632c9"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "83",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/83/tests/reference/reference.step",
+      "bytes": 6998702,
+      "sha256": "3e318460d08a8a6d214bdd8642f07095fd283f9d676bfc1e7325d5cad7ffe18e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "84",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/84/tests/reference/reference.step",
+      "bytes": 51946826,
+      "sha256": "c73ed1d0ceda1e23a9db715e047a07724d0da18940837f9d55858bdbe030eba9"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "85",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/85/tests/reference/reference.step",
+      "bytes": 2785403,
+      "sha256": "a3089697f2c8a3cedaf1c810e893550812105bd389a24141c8fa02bbc1f60fdf"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "86",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/86/tests/reference/reference.step",
+      "bytes": 11694565,
+      "sha256": "25fa137ef2c998c334a432410bf413251facc4964bcd9de5530ad347f697cb5b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "87",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/87/tests/reference/reference.step",
+      "bytes": 23676356,
+      "sha256": "439afdec8393fad07592e6e908d2d6479a281d96b21f1a37041637e668e40c5b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "88",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/88/tests/reference/reference.step",
+      "bytes": 1955268,
+      "sha256": "c9e3f29a105d001dffad6110427c4a4493208501c7abb78987eab6516080e325"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "89",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/89/tests/reference/reference.step",
+      "bytes": 10381263,
+      "sha256": "d4a5eca9ca890e08197b0e81606a3e5224c5af554fe1a7dc51953c87b27dac90"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "90",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/90/tests/reference/reference.step",
+      "bytes": 7462467,
+      "sha256": "65bea58714bb0913a5bef7529a4345e598be51f3cd9334563596701f89fb025b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "91",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/91/tests/reference/reference.step",
+      "bytes": 9580428,
+      "sha256": "cd4a131f8e56dd5b1b982c043afef26f29e4a56465f40edd0aad368fa103d605"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "92",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/92/tests/reference/reference.step",
+      "bytes": 17130607,
+      "sha256": "8ace7ea3db66ab64f4c4278ca3bf38d4db51361b656c52f56d6e1b4b4e60c2e3"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "93",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/93/tests/reference/reference.step",
+      "bytes": 5954777,
+      "sha256": "dc58e6c35b7c56f56d53e7a3ce1c3578982b28a5ba25f8d43610d6daa513081e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "94",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/94/tests/reference/reference.step",
+      "bytes": 22648598,
+      "sha256": "491eb1c8989a85099a6198583fb5189c18ec4dc6ba366dfba3631607b2dcd69f"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "95",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/95/tests/reference/reference.step",
+      "bytes": 21426618,
+      "sha256": "25a3c9589c11002e014777537a6ad801d9740bc3ef11a0b0e715c07136ddd8b8"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "96",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/96/tests/reference/reference.step",
+      "bytes": 8441447,
+      "sha256": "defaae7970766b9155d15f5ebc4643b89d7b785a607b402639998e098d2072a5"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "97",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/97/tests/reference/reference.step",
+      "bytes": 213605647,
+      "sha256": "704afc493e86a138786bec7b8326ae33829840b952c6225c4043cd4a1f3cacc1"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "98",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/98/tests/reference/reference.step",
+      "bytes": 275842199,
+      "sha256": "57d011f4c3fd7e9f9778372574d4fc0d6ce98047763a5518e344f6cead3b6e9d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "99",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/99/tests/reference/reference.step",
+      "bytes": 36878102,
+      "sha256": "0be99aa63bdfd427482238b08d5f92bc6bfcdaed40382b3b7fe64b6ef9ee4e81"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "100",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/100/tests/reference/reference.step",
+      "bytes": 275269,
+      "sha256": "4fe04345478e13704bf51eb2bca6e2944def10125e73bf2ea7f9f08504167ce6"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "101",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/101/tests/reference/reference.step",
+      "bytes": 4623988,
+      "sha256": "df09ce425c44c6e5e5b6b576514a28fa678aa5626f8861cd4a7baceaa0ec17c0"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "102",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/102/tests/reference/reference.step",
+      "bytes": 779302,
+      "sha256": "1c23ee2ef9c0a1b8ae306248a7d73713a4dd02eb683970fa0bf859ee1890a20e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "103",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/103/tests/reference/reference.step",
+      "bytes": 684177,
+      "sha256": "faf6399a582483258a86669b9c3ffab191527c79952f7c2eb9d8b5e5a1660f81"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "104",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/104/tests/reference/reference.step",
+      "bytes": 612056,
+      "sha256": "0030818cddc01551ce5a9cb50c5f67820b3bc1b98f1af4e6cad3628cf7408784"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "105",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/105/tests/reference/reference.step",
+      "bytes": 3432528,
+      "sha256": "84c63ab9ccf3de2d945668c24e0a5d2977f347e893c47fc91030257cc5a869f8"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "106",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/106/tests/reference/reference.step",
+      "bytes": 327929,
+      "sha256": "ece1885e0977e9a91f4bb638556f950af1609fda38604e5f6efde777a5916155"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "107",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/107/tests/reference/reference.step",
+      "bytes": 1377434,
+      "sha256": "1de088fed3597c26f9c87284de81988fa66d54c040e68704459e821e045b923d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "108",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/108/tests/reference/reference.step",
+      "bytes": 231440,
+      "sha256": "22e85cfec4b05f89b18bbb89854d83b41b5212fc3190d56c0f23de63e3b4c3fd"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "109",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/109/tests/reference/reference.step",
+      "bytes": 144183,
+      "sha256": "ea2971bd3e5cce4a744c0d8d73124251499d39290cc05e6e117252aca5763bd7"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "110",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/110/tests/reference/reference.step",
+      "bytes": 1424327,
+      "sha256": "15d68f4ad455ee4aa1397fada9712c2e0b12b3080f4d6379240a6ee35d66e6e0"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "111",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/111/tests/reference/reference.step",
+      "bytes": 599765,
+      "sha256": "00c7c436f84b2bdfa953b7ef7820af47ad4bf0d5e17692846eab326bf2d103ec"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "112",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/112/tests/reference/reference.step",
+      "bytes": 51237639,
+      "sha256": "68c7b7be2e963001d4598138beb97919183740b6c0f609e657525d86553b2e65"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "113",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/113/tests/reference/reference.step",
+      "bytes": 444854,
+      "sha256": "12336771a5917d7bfc749104f1a8e7ad47ff51e67331a8f370cf43b15d7e2190"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "114",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/114/tests/reference/reference.step",
+      "bytes": 563522,
+      "sha256": "f0c11ea7969d3d6ed23c6a1859ca2d3fc19b280ac07b4a49f6a10cfc3c47a31e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "115",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/115/tests/reference/reference.step",
+      "bytes": 3516454,
+      "sha256": "cf6d9a6065c56ac6e7544adb1182db3d259b85d182c97653ab846a640304a69c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "116",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/116/tests/reference/reference.step",
+      "bytes": 1783197,
+      "sha256": "d41912b81ea66af1cb1a0a4fe3d678a6ab02a30e07e847ceb5fa815edee20f3d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "117",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/117/tests/reference/reference.step",
+      "bytes": 378662,
+      "sha256": "4542dfcc744a5dad2312fe0932071d5e0cd683d2538aae4e1f1b0e9cd6a58d8b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "118",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/118/tests/reference/reference.step",
+      "bytes": 2587898,
+      "sha256": "bb400246985937d1832e8f2b101aafd745bb197b425a93b92011a8a839120609"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "119",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/119/tests/reference/reference.step",
+      "bytes": 4575724,
+      "sha256": "e772a4cc96467cff7265cb0308a5448037ae9d7435dacc67156be82e864c40b1"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "120",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/120/tests/reference/reference.step",
+      "bytes": 7335672,
+      "sha256": "f6a41b9c51d3ff8dae59744bbe9e766bb241a90df3d7102d1ad1e465b367048a"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "121",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/121/tests/reference/reference.step",
+      "bytes": 1728820,
+      "sha256": "a369e0d1e1ac3fa2f272222f2b335e1bd102ef2cc21197aacfe378812785497d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "122",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/122/tests/reference/reference.step",
+      "bytes": 2560598,
+      "sha256": "9c435be812f7fd49df6c00106c277888cc3016fed80a1a5423d63795b7f75636"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "123",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/123/tests/reference/reference.step",
+      "bytes": 19829226,
+      "sha256": "2ca92b9564acc937a1e0ab532b0974721d7cb99209341445882e241ae263751d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "124",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/124/tests/reference/reference.step",
+      "bytes": 31386402,
+      "sha256": "044ec6ebc51d412acd9371c93f2fc8a81f93e71ffc85a0100c38c585ae636aff"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "125",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/125/tests/reference/reference.step",
+      "bytes": 2919240,
+      "sha256": "d095030a3254ec3749ca702391d9b97ea18c6e487cfec32ef6fb4f0d55bcebfb"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "126",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/126/tests/reference/reference.step",
+      "bytes": 24595368,
+      "sha256": "44f649a30099a7a008019766ca3a8185148be2f1762d4e497633415d60d0ba95"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "127",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/127/tests/reference/reference.step",
+      "bytes": 423247532,
+      "sha256": "b823f6bb1142bf02a9a7a514ba43539d3de1fde40be1a6a29edd7c6b83263909"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "128",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/128/tests/reference/reference.step",
+      "bytes": 279274462,
+      "sha256": "70368d86747a138d80aca76822f03c22b826dd1213bfd622b5af0516c20b0878"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "129",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/129/tests/reference/reference.step",
+      "bytes": 46950654,
+      "sha256": "7d7f5092309d49f000f83ed87791cad7261526eeb6d1357e5b9a701f872322c1"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "130",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/130/tests/reference/reference.step",
+      "bytes": 9674827,
+      "sha256": "b4a86f0b424fc4a9376a98b9c92856954bc6df937105840b74adbe1ad4d6d794"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "131",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/131/tests/reference/reference.step",
+      "bytes": 45589729,
+      "sha256": "049b888efc6b20c7e565b67340c233b7d3e0a12edec03cf91fa37b1fa543f6a9"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "132",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/132/tests/reference/reference.step",
+      "bytes": 96154601,
+      "sha256": "5a2e710bdc29bb6f1c53f0a6820ef910ea7fbc346f2473bf09847566fe6db6ce"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "133",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/133/tests/reference/reference.step",
+      "bytes": 45696469,
+      "sha256": "fa7f88a67cdf4d7ff2b70ef6ef8cee91e4ce157da803a49b2f2d7cdf6db805bb"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "134",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/134/tests/reference/reference.step",
+      "bytes": 14343781,
+      "sha256": "2c23163c09ef474c8c5a52150a7979f1f9be12be5458f1189ab8340724a8ffe1"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "135",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/135/tests/reference/reference.step",
+      "bytes": 7296781,
+      "sha256": "72dec4deb4dd428050ce3da8f9d5cba8756216b7d850b7eb5f73dace1ffee0ec"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "136",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/136/tests/reference/reference.step",
+      "bytes": 18684535,
+      "sha256": "ab889ee50b70bf5a14440437e36293649b994a891affeb4523ed6a0766e24ae5"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "137",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/137/tests/reference/reference.step",
+      "bytes": 24985096,
+      "sha256": "9fd6472895674b67cc8dbc049bd980c88518cea68f4a963e71c81e7f247ad547"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "138",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/138/tests/reference/reference.step",
+      "bytes": 9483359,
+      "sha256": "a91f4155146160e2ca9ac62d28e229b4e840ed6582b6bea5d0932a0bda80df54"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "139",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/139/tests/reference/reference.step",
+      "bytes": 42236330,
+      "sha256": "fca137d52c4ad7846eef5d8ebe029d5cfd5580742fce69e364ec790dec7e9703"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "140",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/140/tests/reference/reference.step",
+      "bytes": 19987230,
+      "sha256": "1dbd866904780f2003e35c5fa18a0a26ffee64104d4d6c1b5b4194baa6065c97"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "141",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/141/tests/reference/reference.step",
+      "bytes": 72605116,
+      "sha256": "ab24423de28a72156aefd321987dd386b1ae35612ee099df9953a51208316059"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "142",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/142/tests/reference/reference.step",
+      "bytes": 29401763,
+      "sha256": "f32d0bca459d29f4a46c0ba2c34fb902c6b18368f1622b3545f66c7c73152990"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "143",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/143/tests/reference/reference.step",
+      "bytes": 14693930,
+      "sha256": "9051af1d2b1fe47fde223eae3d26b7bfbb760f581b37fce3625479add784319e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "144",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/144/tests/reference/reference.step",
+      "bytes": 85340407,
+      "sha256": "bb9fddf979f588b666435e58f6a7bda512c29f3fefde17607c354efb2b7417e3"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "145",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/145/tests/reference/reference.step",
+      "bytes": 34447991,
+      "sha256": "062d7ab7c87fc2aa0840f1e3ba1080746449ba53f2778f2798c0e49340ea61c2"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "146",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/146/tests/reference/reference.step",
+      "bytes": 25587252,
+      "sha256": "806ab355a37b58b12e1512146e12274e640423309ccd9f82bb8c4ff8bf656a01"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "147",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/147/tests/reference/reference.step",
+      "bytes": 98892177,
+      "sha256": "46d0395b287b9b6050c584d8c14bb6e293de7a6ac8fd95913f121dfc430d0517"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "148",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/148/tests/reference/reference.step",
+      "bytes": 3579271,
+      "sha256": "255f4a411b897e5111e5317d9f53e011b22036d9bf132a3ca4cddd39160bb32c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "149",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/149/tests/reference/reference.step",
+      "bytes": 66626122,
+      "sha256": "51eea2885ccfeb67e21350628494357b91605b0bfa70108e04294805fc475ff6"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "150",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/150/tests/reference/reference.step",
+      "bytes": 15343050,
+      "sha256": "a8b9088efd47ad4c70fd1d3ccd33830ca9011722ad96cfa91c73e5219c6fd400"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "151",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/151/tests/reference/reference.step",
+      "bytes": 27754545,
+      "sha256": "de0f78c8ff72f4feb1a91e151237179b48dfbcedfe698bf791d0e96f939a0347"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "152",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/152/tests/reference/reference.step",
+      "bytes": 7386548,
+      "sha256": "2675e84b4e54ff68de8ca8ddc8a01cae89445a6eb64d4f2fb963288078743723"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "153",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/153/tests/reference/reference.step",
+      "bytes": 5710665,
+      "sha256": "87d9cbdf662342fb9bbb0e0e39dbf8299233c884666696aae39190b3aa26b1f6"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "154",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/154/tests/reference/reference.step",
+      "bytes": 27972140,
+      "sha256": "857052bb19db8cb3b62c7653dbccb8c9c2c70782eadfb875f780ea3b34f7e413"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "155",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/155/tests/reference/reference.step",
+      "bytes": 8551800,
+      "sha256": "fcd4016a527f471d668e3a0f5d382ead7e9e3e877c21f5fab65da22910e6987c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "156",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/156/tests/reference/reference.step",
+      "bytes": 1086938,
+      "sha256": "0f050f2582996058ed44584fc19bb9a0dea96a45f1d7a94cd1d7d34ddc1c15dc"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "157",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/157/tests/reference/reference.step",
+      "bytes": 2184873,
+      "sha256": "c104b59bface4212ee77f412ada74502aec0359ca03007ea6ec63fbc0564a0dc"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "158",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/158/tests/reference/reference.step",
+      "bytes": 14992353,
+      "sha256": "a09fec51e691a9a34ec5c8cc1cf96906119e1780798c1caf6c7eaff1a023169d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "159",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/159/tests/reference/reference.step",
+      "bytes": 1934578,
+      "sha256": "a19cfa2230b5c35bb2686e6acc7ffbb3cf6246e2f2f5733b1186bc8c44bf5492"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "160",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/160/tests/reference/reference.step",
+      "bytes": 2563089,
+      "sha256": "6b8889939b2269e8d3906e86dde07bf0bea69682819815400a4767d43ef7712c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "161",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/161/tests/reference/reference.step",
+      "bytes": 2605404,
+      "sha256": "cbe2d31ec2ca92b1dccfc2d95a6359d416ebd88ccdd629fbb2f8a50142d3de7e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "162",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/162/tests/reference/reference.step",
+      "bytes": 15658628,
+      "sha256": "5fc485870165ce3cde819567caf964f5561047ed571bcb348c0a649c5c357c72"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "163",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/163/tests/reference/reference.step",
+      "bytes": 11529048,
+      "sha256": "b6d5ccb7a12eaab7c714adc33e9f99e94bb0fefa92109285fcf4eb5e93f6d75c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "164",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/164/tests/reference/reference.step",
+      "bytes": 15083225,
+      "sha256": "e098ce44e3d821c04255bc8219e8f67cc59e629712b1ac522b95c5e41fb78dad"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "165",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/165/tests/reference/reference.step",
+      "bytes": 75061139,
+      "sha256": "32b422d435c384029f950e300ac264e86738eb11393b07d1111f805801c3c5dd"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "166",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/166/tests/reference/reference.step",
+      "bytes": 6714049,
+      "sha256": "9c2df663a3cab51484b819b4d7744695753f9209d505e2af9dd097e196e42238"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "167",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/167/tests/reference/reference.step",
+      "bytes": 18782726,
+      "sha256": "9a24e9fcbb1da0142de5900f4adf66cd65419074db7187d63101944395c397f6"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "168",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/168/tests/reference/reference.step",
+      "bytes": 483981,
+      "sha256": "a2576f305f550852d895ec2c3ac845005ca59f72f87a26bc737c418626cb39fc"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "169",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/169/tests/reference/reference.step",
+      "bytes": 2839609,
+      "sha256": "9332a014c0997f82a6225eedf8647c6bb00b553c3f018eb8d83fd9c15620b745"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "170",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/170/tests/reference/reference.step",
+      "bytes": 2422680,
+      "sha256": "f1d9b0d87beb3362b45849c40dc37ada24246f43e7da7646d18e10ec39b17b75"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "171",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/171/tests/reference/reference.step",
+      "bytes": 5830145,
+      "sha256": "f57fe48ab08ecc55148663d1265dc5f84155f48ac2e797c953a9619f119f8da3"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "172",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/172/tests/reference/reference.step",
+      "bytes": 7736174,
+      "sha256": "ab7607c1441c62dd1bf8224db61caf265d3816fc83f6c06468c4c8851f61ec42"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "173",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/173/tests/reference/reference.step",
+      "bytes": 4170445,
+      "sha256": "815b1a55fd0b7de297d149403ef68465e5c8d3d9b925c077f49e674562e00b07"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "174",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/174/tests/reference/reference.step",
+      "bytes": 30588358,
+      "sha256": "89e7d26f740e4cf08f491c68cec42198a11384f7750c524bf7eebe5f14705fb2"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "175",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/175/tests/reference/reference.step",
+      "bytes": 2950616,
+      "sha256": "129b8525444a853b23cda9782c7e631dcd966b450cf20d7af74c67757f113760"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "176",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/176/tests/reference/reference.step",
+      "bytes": 3590260,
+      "sha256": "6b84bb9e63dd8fcc1ef6dcc3af6d631350c173adea200017679604ba39540570"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "177",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/177/tests/reference/reference.step",
+      "bytes": 4219941,
+      "sha256": "8ee1289f2014ee493104f35cb8c9d28e383f926a8ec7299bf8170c45a5699615"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "178",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/178/tests/reference/reference.step",
+      "bytes": 2521887,
+      "sha256": "af6d3c001b3b188b7b2547638a4f78b94491a3c8dc0a8d5966959caee106c89b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "179",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/179/tests/reference/reference.step",
+      "bytes": 11303465,
+      "sha256": "75851fd9169ce81ec3f5a76b1faf439551d04ad5206a34a1af0f115da2ec180c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "180",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/180/tests/reference/reference.step",
+      "bytes": 9196287,
+      "sha256": "ce8b769cb367abc7286882d9a8df39f297cffeea3a6f18b16c8b069e3b6c4cb4"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "181",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/181/tests/reference/reference.step",
+      "bytes": 1280309,
+      "sha256": "476fb4e7d97c6bdb534462009fe08cf53e55f46e718b8d3d88394ab7e022d343"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "182",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/182/tests/reference/reference.step",
+      "bytes": 24270248,
+      "sha256": "4d7203f71d38ea93607ef524767f4a39eb80dd31af8a52ca629bbbfb8db14773"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "183",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/183/tests/reference/reference.step",
+      "bytes": 21721593,
+      "sha256": "71f384cefb7c6b22841a412d66fd85c4e5c060c5364018abee16094396b0f0e1"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "184",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/184/tests/reference/reference.step",
+      "bytes": 6635682,
+      "sha256": "8bebeec29835a35c97891714bbfd9d15f236b5889c8bdc70d3943d1e8671962c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "185",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/185/tests/reference/reference.step",
+      "bytes": 25172138,
+      "sha256": "f9f0406d961c0a008602b84a2397c7bb87e90d3ac5e55a183c20794e6ed3bb4d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "186",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/186/tests/reference/reference.step",
+      "bytes": 7603299,
+      "sha256": "466cfeb2a141056f4be9fad95875a8d6941a6caa96450371e9077876b7e444a3"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "187",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/187/tests/reference/reference.step",
+      "bytes": 12879210,
+      "sha256": "8bca93ae4a9b87eaedd3a3661197b6e934141763efab4a839477da34e28d8d79"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "188",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/188/tests/reference/reference.step",
+      "bytes": 8468281,
+      "sha256": "3b3fe34dac89547caa79980fa90701cc4aabc36b396a82207c8b01b28a3d2af8"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "189",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/189/tests/reference/reference.step",
+      "bytes": 16874058,
+      "sha256": "641ea3df2245a4e3ce22a21f1d4c44e8176268b60dd194f59c1f41ed1ac4aa83"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "190",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/190/tests/reference/reference.step",
+      "bytes": 1905516,
+      "sha256": "d5b002a560918029856952d3e8fdfef1e16cf974beaa4b621ad81350376b977f"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "191",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/191/tests/reference/reference.step",
+      "bytes": 295993,
+      "sha256": "8adcf06ede1d4459e5a436f242bbc3cba19d58e66dfbe721fc27d0e840407379"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "192",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/192/tests/reference/reference.step",
+      "bytes": 2530321,
+      "sha256": "23ed67169dec5a4e20f46f702d7dabf4781b029259220b103d28fc1bdaa52f64"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "193",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/193/tests/reference/reference.step",
+      "bytes": 173062,
+      "sha256": "15143e3f164ea545b7b5079736e4977b97b04edfe4c58259bd92bf6a6abc6c95"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "194",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/194/tests/reference/reference.step",
+      "bytes": 738316,
+      "sha256": "0b77793564f47552a8b1cff1b583e5e1f2958e866574b3f5c07c0e3ccaa5b3fe"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "195",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/195/tests/reference/reference.step",
+      "bytes": 13839607,
+      "sha256": "3b80ceb80a25c212ffd01ed19fa950bab9b6b42067eb694a45ff3cbef99f01bd"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "196",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/196/tests/reference/reference.step",
+      "bytes": 15019791,
+      "sha256": "03cb0073de643c8ac3a5e8f30f06a090264687a84f69ab7b40ad8f95408c6c39"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "197",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/197/tests/reference/reference.step",
+      "bytes": 2191638,
+      "sha256": "a86a2216d4e9971d910368114bd40a2a95624ff15004d580733f2e887ff5754f"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "198",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/198/tests/reference/reference.step",
+      "bytes": 760400,
+      "sha256": "d6e75e0d8e83902850a72580dab6485f3ccbc117b1938eb8960fee90f1c659be"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "199",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/199/tests/reference/reference.step",
+      "bytes": 156187659,
+      "sha256": "a0b10eb5d117fbe417472faa0f5be31ecb11ccf3442a91acbc454e92a411c166"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "200",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/200/tests/reference/reference.step",
+      "bytes": 14233866,
+      "sha256": "172981afde495752c32840e2fc2e73198142dd95ead204badfde2a08c040ca21"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "201",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/201/tests/reference/reference.step",
+      "bytes": 23606781,
+      "sha256": "858d3ce491281f4c2b1a681c4fcf0c117825ca53a138c98484d47bf54a212df4"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "202",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/202/tests/reference/reference.step",
+      "bytes": 17836741,
+      "sha256": "52137fd81a6437dbf52c394181b41feb03bf172518062c6556a717bd6028cafc"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "203",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/203/tests/reference/reference.step",
+      "bytes": 177091970,
+      "sha256": "6feee815092e5620261c4de4399e8edfca4dc5b333111bb23b40aaac201069b6"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "204",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/204/tests/reference/reference.step",
+      "bytes": 10730612,
+      "sha256": "75f9f77074318ba871b9e3f29bb9b643bbcfec5ddb5506a69e1965a0bcab4fcb"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "205",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/205/tests/reference/reference.step",
+      "bytes": 24499392,
+      "sha256": "0dfb0770caf2488afc95e6242f4e5a209b595be66cde9fd4315e1acee968f0d8"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "206",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/206/tests/reference/reference.step",
+      "bytes": 4064004,
+      "sha256": "9b098a4c7f4bb961b1cae6a65b5daeff035b667b5c2dd2cac5b7083f2c02dff6"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "207",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/207/tests/reference/reference.step",
+      "bytes": 30188920,
+      "sha256": "b477ef584fe3898e2f883d802b5c8f120cd6a24a974fa4f63610fb84708eab0b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "208",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/208/tests/reference/reference.step",
+      "bytes": 197331,
+      "sha256": "c6c8777cb8c193a7f6d50840aab3af127e3728446cdfe48f38bad1af63258b0d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "209",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/209/tests/reference/reference.step",
+      "bytes": 11468830,
+      "sha256": "c4bffcf84342813ce60b21bc90ae9b2c66a2b9fb9e2cea8c1874f9438bc6995e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "210",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/210/tests/reference/reference.step",
+      "bytes": 1145954,
+      "sha256": "dd769e67a4a74ca78e64348bb31668f43612a1e6c35ea7d0f6a226576849e5ef"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "211",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/211/tests/reference/reference.step",
+      "bytes": 17839965,
+      "sha256": "c7dae581d620045c50cb88edc096ccc266d3c6cde57e006f3b433800966c8d2b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "212",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/212/tests/reference/reference.step",
+      "bytes": 929624,
+      "sha256": "51c7e949d1ace483795d4896ff3af20c8d3dace4895421195fa7d93960ba8b71"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "213",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/213/tests/reference/reference.step",
+      "bytes": 1398775,
+      "sha256": "6691c20f60ef8e643d467359f414bd18c25f137c761405890cdc508cc27538b1"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "214",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/214/tests/reference/reference.step",
+      "bytes": 14249601,
+      "sha256": "32b4661cf1a9bd60a7d04cfe3b8fe35e34a2f72cbcccaefd41afa408139130b2"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "215",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/215/tests/reference/reference.step",
+      "bytes": 2043076,
+      "sha256": "94eb9efedfc871c22ecbf1f9d4db10e081d6d393148f4788ecb847b63f1726c7"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "216",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/216/tests/reference/reference.step",
+      "bytes": 9422877,
+      "sha256": "322d14f566bedd89d24f5d255056031edc1503b90c6ceac2ff06f25fbb379ab2"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "217",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/217/tests/reference/reference.step",
+      "bytes": 14804896,
+      "sha256": "8321add57c1d7bead31e2826ac995b8468fbc64078688d89d1c85b6800515306"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "218",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/218/tests/reference/reference.step",
+      "bytes": 10713169,
+      "sha256": "964facc5f0cdd0a558613bca67dac1eb6cf97d50f367f0f7538d8c988d5ad42c"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "219",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/219/tests/reference/reference.step",
+      "bytes": 8102779,
+      "sha256": "baacd83b0a1dd8ed44a224cabb3d1eafe14d186064df5a9c8782ae008080ffaa"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "220",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/220/tests/reference/reference.step",
+      "bytes": 4123974,
+      "sha256": "1cb46d1cf957544b19a8dc7f6630152bea66f49a3dbac6f41a82f652a05fb0e1"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "221",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/221/tests/reference/reference.step",
+      "bytes": 1097393,
+      "sha256": "bce54eb274eb1b716073957fe5f677294a61584b11b153c1d2cd1dd06c425898"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "222",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/222/tests/reference/reference.step",
+      "bytes": 859176,
+      "sha256": "a75f30f8905cfa9382e6eed8c9370a3e2c54678285fd62865950c4e28dc34196"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "224",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/224/tests/reference/reference.step",
+      "bytes": 817483,
+      "sha256": "83bf1f93a4483c34878718193dd45aa31fe5f26039c05d6fc3fee14e8a8c213e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "225",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/225/tests/reference/reference.step",
+      "bytes": 350023,
+      "sha256": "0f20a21987ffcdef6ad7796dd3740b4b84832bfabdb0d4c5ad51c636a65774af"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "226",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/226/tests/reference/reference.step",
+      "bytes": 772590,
+      "sha256": "ef46d273cfc7d028bd1c08e058aa28b5991798854e4d5206b437017056857926"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "227",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/227/tests/reference/reference.step",
+      "bytes": 1044762,
+      "sha256": "4e29aa7781ff0530ca2d593d3b34cdfc091ab444998f9d97a20581d2d16690c8"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "228",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/228/tests/reference/reference.step",
+      "bytes": 1220283,
+      "sha256": "45e50220e6692602f08dca723372f44a6621e99044323b231ad91bfa1a45c088"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "229",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/229/tests/reference/reference.step",
+      "bytes": 4799183,
+      "sha256": "a87384f1ce170f2a8cdfef34793ab426234a6e5cd37c1df294ed4daf274f93ef"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "230",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/230/tests/reference/reference.step",
+      "bytes": 689250,
+      "sha256": "d70fe3e0c0073281724e2b61e96488a8a61a3765788d8cd14cb40d9c9dc4e828"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "231",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/231/tests/reference/reference.step",
+      "bytes": 2446826,
+      "sha256": "c09f4c29e57984c40e407638680732b8f5416da6ee5e272b0a6316c776a36d10"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "232",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/232/tests/reference/reference.step",
+      "bytes": 2997491,
+      "sha256": "16be902374907f1c6b0287919808f48768f0e7e6ceb863f1ae0d7e13946ef393"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "233",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/233/tests/reference/reference.step",
+      "bytes": 743046,
+      "sha256": "6ece393dade291e6de07ae93f1ae39f68ba6f277eab13e6323de83a87a2df47e"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "234",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/234/tests/reference/reference.step",
+      "bytes": 719990,
+      "sha256": "81dc5eb8fe20ff15622f21044250035c89a38f436073236bea4dcc74bc06437a"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "236",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/236/tests/reference/reference.step",
+      "bytes": 3243428,
+      "sha256": "a63a3edc0f47683bc2d58cf96b2ace2be25eb7b991a24ec2b9c97c7c8584689f"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "237",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/237/tests/reference/reference.step",
+      "bytes": 2401199,
+      "sha256": "be1c03b302beb0945d072bde1db8a14394eee32fb43b7448d7a3a4cf6fddbcf7"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "238",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/238/tests/reference/reference.step",
+      "bytes": 1335217,
+      "sha256": "660eb5f012f660ebb0b0caae871c51289f0183bbc6835012616395dbdc8e8fc5"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "239",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/239/tests/reference/reference.step",
+      "bytes": 31581236,
+      "sha256": "298f62cc2f38ad7a9ad780900cef01b4f12d765b666351752d5d2cbd0dcbad43"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "240",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/240/tests/reference/reference.step",
+      "bytes": 5040594,
+      "sha256": "8114f13723437d8c810dc74ce6c5270c95457f9df03596635849c3b4a5420f53"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "241",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/241/tests/reference/reference.step",
+      "bytes": 8868173,
+      "sha256": "b3a78ddb222dcf48762fb8c9afa545f7499f8825b13f7b85a94f88af98c2134a"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "242",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/242/tests/reference/reference.step",
+      "bytes": 9660179,
+      "sha256": "4e3a331e34d1e7434799253eb01cab14e8688649df7c4b3cb239546d59a34d7f"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "243",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/243/tests/reference/reference.step",
+      "bytes": 10013151,
+      "sha256": "b4962435f9f2249435049f3ee819fc9658a66c3b1ad16def0ad9cfd405a3f50d"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "244",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/244/tests/reference/reference.step",
+      "bytes": 2651087,
+      "sha256": "9805aba3061bb79daf69e7ea42015d65b0115c8a9bba74951d3549c4ba9b3c4b"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "245",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/245/tests/reference/reference.step",
+      "bytes": 17492095,
+      "sha256": "263ebc4aec0868580725d82843a6ce196132c927ff603b3de4034eb0a0589a31"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "246",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/246/tests/reference/reference.step",
+      "bytes": 3504913,
+      "sha256": "e09056bd09216cad3df2279a23204ab202b2709d0016de1361aa461cca9a9598"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "247",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/247/tests/reference/reference.step",
+      "bytes": 7401072,
+      "sha256": "593cac1fdd9a781bb62bd39c44034c345aa07d6517cb53eb7c6ce9de19b1f322"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "248",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/248/tests/reference/reference.step",
+      "bytes": 19906956,
+      "sha256": "6e900e4da8f60afc08969b4b68bcb83fb08067747d7c1088f1360e58d4049849"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "249",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/249/tests/reference/reference.step",
+      "bytes": 600494,
+      "sha256": "1aa8d9ac1e6b4a06c71ecf9eafee2ae946cd3f0898cdb2ab9f368c3e93ff327a"
+    },
+    {
+      "dataset": "Ali_cad_250_Out",
+      "task": "250",
+      "path": "/Users/yuxiang/Desktop/cad-fix/Ali_cad_250_Out/Ali_cad_250_final_delivery/dataset_clean_all250/250/tests/reference/reference.step",
+      "bytes": 1879421,
+      "sha256": "6b85f7f10289cf165950795860954e2d255399cbfe23c8000024bc13a150dcec"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cabinet_6",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cabinet_6/tests/reference/reference.step",
+      "bytes": 1431236,
+      "sha256": "802ed299d65d1c46f744a321dbe7a313f08c77860473b67f94bc803ccc06770e"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_03_g009",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_03_g009/tests/reference/reference.step",
+      "bytes": 6470094,
+      "sha256": "3cff5977a65a0e57be6044e8b07d5fce46f9d34748c1367c00c5bfa5afd7c0d3"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_071_valve_rocker_fixture",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_071_valve_rocker_fixture/tests/reference/reference.step",
+      "bytes": 1255930,
+      "sha256": "88df771f4e4371fdcb8aa4dde2668a29335dba673aec730b5ddb53db12aa57e5"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_15_g015",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_15_g015/tests/reference/reference.step",
+      "bytes": 25542784,
+      "sha256": "47094b61040dd859cacaf6ea363e61595910992596408726f7dec0e49b2178ad"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_17_g017",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_17_g017/tests/reference/reference.step",
+      "bytes": 35008885,
+      "sha256": "be343d098830f0bcfc494bc42e774cabed4f364bb18969196c1c97070fe32b4c"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_18_g018",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_18_g018/tests/reference/reference.step",
+      "bytes": 6102096,
+      "sha256": "f294a5acaa0e83949b1be9261caed30eb768b58a500821c209692f72f6550118"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_19_g019",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_19_g019/tests/reference/reference.step",
+      "bytes": 28951253,
+      "sha256": "ee4b0799c7457ea0f79be5e29e0a34ae75a438c8792908c6d7e064087a913f0e"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_20_g020",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_20_g020/tests/reference/reference.step",
+      "bytes": 42725800,
+      "sha256": "802d76b389ba7ec3818729cbd93813e3cffe532e50c403339c7901ae95c64094"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_21_g021",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_21_g021/tests/reference/reference.step",
+      "bytes": 48615366,
+      "sha256": "89824f719ebe9cead433118f4c4991efd9ca44078dd2954b09e7b4f9f7051b90"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_22_g022",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_22_g022/tests/reference/reference.step",
+      "bytes": 34819086,
+      "sha256": "b6920e1354a8f212a94a0d5b91fb74a719c2ae70b116eba87eb4be60ecfe491a"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_23_g023",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_23_g023/tests/reference/reference.step",
+      "bytes": 19504189,
+      "sha256": "f6230cfb75b291332ea3942dc5de8a03f73ccfecdc5fd1004fe3eae350c32523"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_24_g024",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_24_g024/tests/reference/reference.step",
+      "bytes": 12265020,
+      "sha256": "3091349144b5ecc940682428a360ce096572a1fc7af18145e2b018aafb3d34ff"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_25_g025",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_25_g025/tests/reference/reference.step",
+      "bytes": 16101874,
+      "sha256": "f26e6074027af1a9a1cb57e56ed5d245375e4bf5e103205b80f709f0d2589d2d"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_26_g026",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_26_g026/tests/reference/reference.step",
+      "bytes": 63243914,
+      "sha256": "0eebd9966380147ca573b87ba4020399168bd15398253404ed4b8a77b7c99f07"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_27_g027",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_27_g027/tests/reference/reference.step",
+      "bytes": 4115933,
+      "sha256": "8f5f88d108c13368ae3299f80e7b6f4faf7fc36f33ea1fd0019d7d5e13ff3cdb"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_82_g003",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_82_g003/tests/reference/reference.step",
+      "bytes": 6333671,
+      "sha256": "53e4448b76a5907d50e679ba3bb709705e7b62be4e9aa36da59e778c04a567cc"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_82_g004",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_82_g004/tests/reference/reference.step",
+      "bytes": 28091652,
+      "sha256": "184093cd183b7809ae98f4d2ebddc1091667993c53db63fdcea5fb2c14db6ebe"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_82_g008",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_82_g008/tests/reference/reference.step",
+      "bytes": 14664859,
+      "sha256": "7f93679bbeea00ff5cf923bb160f0d9a87c2786cb5f54a5d8abcb491825a891b"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_82_g009",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_82_g009/tests/reference/reference.step",
+      "bytes": 11405211,
+      "sha256": "6c196fa0fda8e698078e498758c2afc0aaa709f537c61af4969c1963b558d177"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_82_g011",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_82_g011/tests/reference/reference.step",
+      "bytes": 11874108,
+      "sha256": "e63431ebe260192caafc90f177831eb76a0cb245adb24c0bc62b2f8a362d91e0"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_roots_pump",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_roots_pump/tests/reference/reference.step",
+      "bytes": 15915347,
+      "sha256": "9fb72545d52d6c661f16451720374a92fb8d854c72e0f3450d5882a517fbe130"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_toy_cannon",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_toy_cannon/tests/reference/reference.step",
+      "bytes": 1671567,
+      "sha256": "37224d4122b53163d9e964af3e9fbe7e35432b0a915f318f8f03558ae0f5465a"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "cad_wheelchair",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/cad_wheelchair/tests/reference/reference.step",
+      "bytes": 1807119,
+      "sha256": "41b8a18786b50378a936181d2e43e0c63c8bc5b6b39cba73cf174879912fc6e8"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "gearbox_6",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/gearbox_6/tests/reference/reference.step",
+      "bytes": 151404681,
+      "sha256": "e4be69734c54e1cd409c3361d2f3fbf5d48e996aeeb37b7f57e90de17f26cf53"
+    },
+    {
+      "dataset": "cad_28",
+      "task": "wa300g_01_011_frame",
+      "path": "/Users/yuxiang/Desktop/cad-fix/cad_28/dataset/wa300g_01_011_frame/tests/reference/reference.step",
+      "bytes": 2160703,
+      "sha256": "eaad199b4d63adcc123711ff9df7902bda3ed34a1c090cf3448e6ff1eee366c8"
+    }
+  ],
+  "errors": []
+}

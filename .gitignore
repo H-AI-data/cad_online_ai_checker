@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+.venv/
+project/key.txt
+project/aichecker_new/outputs/
+project/aichecker_new/tools/
+*.lock
+*.backups/

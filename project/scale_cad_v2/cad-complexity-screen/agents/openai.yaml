@@ -1,0 +1,3 @@
+interface:
+  display_name: "CAD 复杂零件筛选"
+  short_description: "用几何与三视图 OCR 生成高召回复杂零件候选"
